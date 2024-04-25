@@ -12,6 +12,11 @@ The `ORPODPODatasetGenerator` class is designed for the LLaMA index, facilitatin
 Before you begin using the `ORPODPODatasetGenerator`, ensure you have the following installed:
 - Python 3.10 or higher
 
+## Install
+```bash
+pip install llama-index-orpo-dpo-dataset-generator
+```
+
 ## Usage
 
 Load in your required document/s
@@ -36,7 +41,7 @@ llm = Perplexity(
 Init a dataset generator
 ```python
 from llama_index.core.llama_dataset.generator import RagDatasetGenerator
-from orpo_dpo_dataset_generator import ORPODPODatasetGenerator
+from llama_index_orpo_dpo_dataset_generator.orpo_dpo_dataset_generator import ORPODPODatasetGenerator
 from llama_index.core.prompts.base import BasePromptTemplate, PromptTemplate
 
 quest_gen_query = f"""
