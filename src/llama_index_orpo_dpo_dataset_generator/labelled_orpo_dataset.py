@@ -1,4 +1,4 @@
-from orpo_data_example import ORPODataExample
+from llama_index_orpo_dpo_dataset_generator.orpo_data_example import ORPODataExample
 from llama_index.core.llama_dataset import LabelledRagDataset
 from pandas import DataFrame as PandasDataFrame
 from llama_index.core.base.base_query_engine import BaseQueryEngine

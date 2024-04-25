@@ -4,8 +4,8 @@ import asyncio
 import re
 from typing import List, Optional
 
-from orpo_data_example import ORPODataExample
-from labelled_orpo_dataset import LabelledORPODataset
+from llama_index_orpo_dpo_dataset_generator.orpo_data_example import ORPODataExample
+from llama_index_orpo_dpo_dataset_generator.labelled_orpo_dataset import LabelledORPODataset
 
 from llama_index.core.llama_dataset.generator import RagDatasetGenerator
 from llama_index.core import Document, ServiceContext, SummaryIndex
